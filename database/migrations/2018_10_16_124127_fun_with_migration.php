@@ -13,7 +13,7 @@ class FunWithMigration extends Migration
      */
     public function up()
     {
-        //
+      
     }
 
     /**
@@ -23,6 +23,6 @@ class FunWithMigration extends Migration
      */
     public function down()
     {
-        //
+        Schema::dropIfExists("some_table");
     }
 }
